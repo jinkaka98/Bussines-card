@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.title {
+    font-weight: lighter;
+    font-size: 40px;
+    border: 1px dotted blue; /* detected margin area */
+}
+
+.main-img {
+    box-shadow: 0px 2px 5px lightgray;
+    width: 400px;
+    border: 1px dotted blue; /* detected margin area */
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 50px;
+    border: 1px dotted blue; /* detected margin area */
+}
+.slide-left {
+    padding: 20px;
+    border: 1px dotted blue; /* detected margin area */
+}
+.slide-right {
+    border: 1px dotted blue; /* detected margin area */
+    padding-left: 20px;
+}
+
+.img-stars {
+    width: 150px;
+    border: 1px dotted blue; /* detected margin area */
+}
+
+.text-description {
+    font-size: 18px;
+    border: 1px dotted blue; /* detected margin area */
+}
+
+.category {
+    color: #565959;
+    border: 1px dotted blue; /* detected margin area */
+}
+.link-color {
+    color: #007185;
+}
+
+p, h3 {
+    border: 1px dotted blue; /* detected margin area */
+}
