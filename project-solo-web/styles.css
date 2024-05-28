@@ -11,8 +11,129 @@ DARK BLUE: #1D3557
 body {
     margin: 0;
     text-align: center;
+    font-family: "Open Sans", sans-serif;
+}
+
+#header {
+    /* border: 1px dotted blue; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("https://radarlampung.disway.id/upload/5a56524403593b1f283190303812871d.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 150px 450px;
+}
+
+#title {
+    background-color: white;
+    padding: 2px 20px;
+    border-radius: 5px;
+    margin-bottom: 0;
+}
+
+#subtitle {
+    margin-top: 15px;
+    background-color: white;
+    padding: 2px 20px;
+    border-radius: 5px;
+}
+
+#activities-section {
+    padding: 20px 0;
+    background-color: #F1FAEE;
+}
+
+.columns {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 30px 100px;
+}
+
+.activities-title {
+    font-size: 5vh;
+    margin: 30px 0;
+}
+
+.activity {
+    padding: 10px 100px;
+}
+
+.activity-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 150px;
 }
 
 img {
     width: 100px;
+}
+
+#card-id {
+    background-color: white;
+    padding: 100px 0;
+}
+
+#card-img {
+    margin: auto auto;
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+}
+
+.card {
+    display: flex;
+    justify-content: space-around;
+    padding: 0px 450px;
+    background-color: #457B9D;
+    border-bottom: 10px solid red;
+}
+
+.desc-card {
+    padding: 0px 50px;
+}
+
+/* ajalan ninja percobaan  */
+
+.op {
+    padding: 50px 0px;
+}
+
+.opp {
+    background-color: #bfe1f7;
+    display: flex;
+    flex-direction: row;
+    margin: 0px 400px;
+    padding: 20px 20px;
+    border-radius: 10px;
+    border-bottom: 5px solid #3c7294;
+}
+
+#img-op {
+    width: 150px;
+    height: 200px;
+    border-radius: 15px;
+}
+
+#desc-op {
+    padding: 0 50px;
+}
+
+#desc-underline {
+    font-style: italic;
+}
+
+/* Desktop Styles (Larger Screens) */
+@media (min-width: 768px) {
+
+    op,
+    opp {
+        flex-direction: row;
+    }
+
+    .contact-info {
+        margin-left: 20px;
+    }
 }
