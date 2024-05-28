@@ -1,0 +1,50 @@
+body {
+    font-family: "Noto Sans", sans-serif;
+    margin: 0 auto;
+
+}
+
+.header {
+    text-align: center;
+    padding: 100px 0;
+}
+
+/* h1 {
+    text-align: center;
+
+} */
+
+.grid {
+    border: 1px solid blue;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto;
+    grid-gap: 10px;
+    text-align: center;
+    margin: 150px 0px;
+}
+
+.--g01 {
+    /* position: sticky; */
+    background-color: red;
+    color: white;
+}
+
+.--g02 {
+    /* position: sticky; */
+    background-color: pink;
+    color: black;
+}
+
+.--g03 {
+    /* position: sticky; */
+    background-color: green;
+    color: white;
+}
+
+#hallo {
+    font-size: 1000px;
+}
